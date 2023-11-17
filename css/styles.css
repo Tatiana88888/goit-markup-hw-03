@@ -160,7 +160,9 @@ color: #404bbf;
     letter-spacing: 0.02em;
     line-height: 1.07;
     text-align: center;
-    width: 496px;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-title {
@@ -217,9 +219,7 @@ background-color: #404BBF;
 .first-block {
     background-color:  #2E2F42;
     padding-top: 188px;
-    padding-right: 472px;
     padding-bottom: 188px;
-    padding-left: 472px;
 }
 
 /*=====================second-block====================*/
@@ -329,9 +329,8 @@ margin-right: 24px;
 .section-footer {
     background-color: #2E2F42;
     padding-top: 100px;
-    padding-right: 1020px;
-    padding-bottom: 100px;
-    padding-left: 156px;
+   padding-bottom: 100px;
+    
 }
 
 .section-footer-text {
